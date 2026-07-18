@@ -1,0 +1,6 @@
+{
+  "name": "Security Scan",
+  "description": "Daily npm audit and secret scan on main branch",
+  "iconName": "octicon-shield",
+  "categories": ["Security"]
+}
