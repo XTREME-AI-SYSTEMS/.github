@@ -1,4 +1,4 @@
-# ChatGPT Codex — Operating Instructions for XTREME-AI-SYSTEMS
+# ChatGPT Codex — Operating Instructions for XPS Intelligence
 
 This document governs how ChatGPT Codex operates within this organization.
 
@@ -6,7 +6,7 @@ This document governs how ChatGPT Codex operates within this organization.
 
 ### ALWAYS DO
 - Create feature branches for all changes (never push directly to main)
-- Write descriptive commit messages: `feat:`, `fix:`, `chore:`, `docs:`
+- Write descriptive commit messages: feat:, fix:, chore:, docs:
 - Include a PR description with: what changed, why, and rollback steps
 - Add relevant topics/labels to every PR
 - Run CI checks before requesting merge
@@ -29,18 +29,19 @@ chore/*       — dependency updates, config changes
 ```
 
 ## PR Requirements
-- [ ] CI passing (build + typecheck + lint)
-- [ ] Description includes rollback instructions
-- [ ] No secrets in diff
-- [ ] Linked to workbook task or issue
+- CI passing (build + typecheck + lint)
+- Description includes rollback instructions
+- No secrets in diff
+- Linked to workbook task or issue
 
 ## Vercel Integration
-All pushes to `main` auto-deploy to Vercel production.
+All pushes to main auto-deploy to Vercel production.
 Preview deployments are created for every PR automatically.
 
 ## Connected Systems
-- Supabase: control plane DB — azajysheebfhyzoyplpf.supabase.co
+- XPS Intelligence: https://www.xps-intelligence.com
+- Supabase: azajysheebfhyzoyplpf.supabase.co
 - Vercel: autobuilderos.com pipeline
-- Resend: email automation (leads@nationalepoxypros.com)
+- Resend: leads@nationalepoxypros.com
 - Base44 MCP: https://www.autobuilderos.com/api/mcp (30+ tools)
 
