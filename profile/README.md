@@ -1,12 +1,27 @@
-# XPS Intelligence
+# XTREME AI SYSTEMS
 
-> Autonomous AI Factory Infrastructure — Workbooks • Pipelines • 24/7 Build Systems
+Autonomous AI Factory — 24/7 code generation, validation, deployment, and self-healing.
 
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://www.xps-intelligence.com)
-[![ChatGPT Codex](https://img.shields.io/badge/AI-ChatGPT%20Codex-green)](https://github.com/apps/chatgpt-codex-connector)
-[![Pipeline](https://img.shields.io/badge/Pipeline-24%2F7%20Active-blue)](https://www.xps-intelligence.com)
+## Repositories
+| Repo | Purpose |
+|------|--------|
+| factory-control-plane | Orchestration, queues, repair loop, gates, receipts |
+| factory-runtime | Generators, sandbox, builds, patches, previews |
+| browserworker | Browserbase/Chromium execution and evidence |
+| parity-engine | Validation, scoring, parity checks |
+| template-registry | Approved templates, golden-path references |
+| platform-config | Vercel workflow contracts, org policy |
+| golden-path | Canonical reference fixture and hardening demo |
 
-We build autonomous systems that operate without human intervention — AI factory workbooks, ChatGPT-driven build pipelines, and zero-downtime Vercel deployments for XPS Intelligence.
+## Autonomous Capabilities
+- ChatGPT Codex: Full write access to all repos
+- Vercel: Auto-deploy on push to main
+- Base44 MCP: 38 tools live at autobuilderos.com/api/mcp
+- Supabase: Database read/write via service role
+- Resend: Automated email pipeline
 
-Live System: https://www.xps-intelligence.com
-
+## Org Secrets (all repos inherit automatically)
+- OPENAI_API_KEY, SUPABASE_*, RESEND_API_KEY
+- VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_TEAM_ID
+- CRON_SECRET, GH_PAT, NEXT_PUBLIC_APP_URL
+- ADMIN_COMMAND_SECRET, ORCHESTRATOR_SECRET, VERCEL_AUTOMATION_BYPASS_SECRET
