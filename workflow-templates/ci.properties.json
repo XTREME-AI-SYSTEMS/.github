@@ -1,0 +1,6 @@
+{
+  "name": "CI Pipeline",
+  "description": "Build, typecheck, lint, test, secret scan on every push and PR",
+  "iconName": "octicon-gear",
+  "categories": ["CI"]
+}
