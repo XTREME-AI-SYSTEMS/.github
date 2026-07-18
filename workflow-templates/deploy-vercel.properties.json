@@ -1,0 +1,6 @@
+{
+  "name": "Deploy to Vercel",
+  "description": "Trigger Vercel production deploy on push to main",
+  "iconName": "octicon-rocket",
+  "categories": ["Deployment"]
+}
