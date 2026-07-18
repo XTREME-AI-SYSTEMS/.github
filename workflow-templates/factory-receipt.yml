@@ -1,0 +1,20 @@
+name: Factory Receipt
+on:
+  push:
+    branches: [main]
+jobs:
+  receipt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate receipt
+        run: |
+          echo "RECEIPT_ID=RECEIPT-$(date +%Y%m%dT%H%M%S)-${{ github.repository }}-${{ github.sha }}" >> $GITHUB_OUTPUT
+          echo "repo=${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "sha=${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "ref=${{ github.ref }}" >> $GITHUB_STEP_SUMMARY
+          echo "actor=${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
+          echo "timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+      - name: Post receipt to factory
+        run: |
+          curl -s -X POST "${{ secrets.NEXT_PUBLIC_APP_URL }}/api/receipts"             -H "Content-Type: application/json"             -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"             -d "{\"repo\":\"${{ github.repository }}\",\"sha\":\"${{ github.sha }}\",\"actor\":\"${{ github.actor }}\",\"ref\":\"${{ github.ref }}\"}" || true
