@@ -1,0 +1,6 @@
+{
+  "name": "Factory Receipt",
+  "description": "Auto-generate deployment receipt and post to AutoBuilderOS on every merge to main",
+  "iconName": "octicon-file",
+  "categories": ["Automation"]
+}
