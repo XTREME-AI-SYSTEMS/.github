@@ -1,12 +1,12 @@
 # XPS Intelligence
+*Autonomous AI Factory — 24/7 build, validate, deploy, and self-heal*
 
-Autonomous AI Factory — 24/7 code generation, validation, deployment, and self-healing.
+Org: XTREME-AI-SYSTEMS | Domain: xps-intelligence.com | Powered by Strategic Minds
 
-Built on the Xtreme AI Builder platform. Powered by Strategic Minds.
+## Factory Infrastructure (20 repositories)
 
-## Factory Repositories
-
-| Repository | Purpose |
+### Core Factory (7 repos)
+| Repo | Purpose |
 |---|---|
 | factory-control-plane | Orchestration, queues, repair loop, gates, receipts |
 | factory-runtime | Generators, sandbox, builds, patches, previews |
@@ -16,20 +16,30 @@ Built on the Xtreme AI Builder platform. Powered by Strategic Minds.
 | platform-config | Vercel workflow contracts, org policy |
 | golden-path | Canonical reference fixture and hardening demo |
 
-## Autonomous Capabilities
+### AI Capability Layer (12 repos)
+| Repo | Purpose | ChatGPT Unlocks |
+|---|---|---|
+| prompt-library | Versioned system prompts + few-shot examples | Self-improving prompts |
+| image-pipeline | DALL-E 3 templates + quality scoring | Autonomous image creation |
+| website-templates | 100+ contractor templates with JSON schema | Template auto-selection |
+| seo-engine | Keyword DB + schema markup + sitemap automation | 100+ pages/month |
+| composite-actions | Reusable CI/CD building blocks | Zero-duplication DevOps |
+| visual-regression | Playwright screenshot baselines | Auto-detect UI regressions |
+| competitor-intel | 500+ competitor profiles + pricing | Market intelligence |
+| lead-scoring-models | Scoring model definitions + training data | Smarter lead qualification |
+| content-engine | Blog templates + FAQ DB + copy variants | Scale content generation |
+| mcp-tools-extended | 8 new MCP tool definitions | Expanded ChatGPT tools |
+| knowledge-base | Product specs + RAG documents | Semantic search over XPS IP |
+| factory-dashboards | Monitoring + analytics configs | Real-time factory health |
 
-- ChatGPT Codex — Full write access to all repositories
-- Vercel — Auto-deploy on push to main
-- Base44 MCP — 38 tools live at autobuilderos.com/api/mcp
-- Supabase — Database read/write via service role
-- Resend — Automated email pipeline
-- GitHub Actions — CI/CD, security scan, factory receipt on every merge
+## Autonomous Stack
+- ChatGPT Codex — Full write to all 20 repos
+- Base44 MCP — 38 tools + 8 planned extensions
+- Vercel — Auto-deploy on every push to main  
+- GitHub Actions — CI + receipt on every merge
+- 16 org secrets auto-inherited by every repo
 
-## Org Secrets (all repos inherit automatically)
-
-OPENAI_API_KEY, SUPABASE_*, RESEND_API_KEY, VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_TEAM_ID, CRON_SECRET, GH_PAT, NEXT_PUBLIC_APP_URL, ADMIN_COMMAND_SECRET, ORCHESTRATOR_SECRET, VERCEL_AUTOMATION_BYPASS_SECRET
-
-## Links
-
-- Platform: https://www.autobuilderos.com
-- Intelligence: https://xps-intelligence.com
+## Reference Files (factory-control-plane)
+- DEPLOY_HOOKS.md — All Vercel deploy hook URLs
+- SECRETS_MANIFEST.md — All secret names across orgs
+- INFRASTRUCTURE_STATE.md — Full stack state
