@@ -1,6 +1,9 @@
 {
-  "name": "CI Pipeline",
-  "description": "Build, typecheck, lint, test, secret scan on every push and PR",
-  "iconName": "octicon-gear",
-  "categories": ["CI"]
+  "name": "CI \u2014 Quality Gate",
+  "description": "FAANG-standard CI pipeline for Xtreme AI Systems repos",
+  "iconName": "octicon workflow",
+  "categories": [
+    "CI",
+    "TypeScript"
+  ]
 }
