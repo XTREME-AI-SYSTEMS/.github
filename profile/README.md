@@ -1,45 +1,55 @@
-# XPS Intelligence
-*Autonomous AI Factory — 24/7 build, validate, deploy, and self-heal*
+# XTREME AI SYSTEMS
 
-Org: XTREME-AI-SYSTEMS | Domain: xps-intelligence.com | Powered by Strategic Minds
+> The Autonomous Operating System for the $50B Trades Industry
 
-## Factory Infrastructure (20 repositories)
+We don't build tools for humans. We build systems that run businesses.
 
-### Core Factory (7 repos)
-| Repo | Purpose |
-|---|---|
-| factory-control-plane | Orchestration, queues, repair loop, gates, receipts |
-| factory-runtime | Generators, sandbox, builds, patches, previews |
-| browserworker | Browserbase/Chromium execution and evidence |
-| parity-engine | Validation, scoring, parity checks |
-| template-registry | Approved templates, golden-path references |
-| platform-config | Vercel workflow contracts, org policy |
-| golden-path | Canonical reference fixture and hardening demo |
+## The Network
 
-### AI Capability Layer (12 repos)
-| Repo | Purpose | ChatGPT Unlocks |
-|---|---|---|
-| prompt-library | Versioned system prompts + few-shot examples | Self-improving prompts |
-| image-pipeline | DALL-E 3 templates + quality scoring | Autonomous image creation |
-| website-templates | 100+ contractor templates with JSON schema | Template auto-selection |
-| seo-engine | Keyword DB + schema markup + sitemap automation | 100+ pages/month |
-| composite-actions | Reusable CI/CD building blocks | Zero-duplication DevOps |
-| visual-regression | Playwright screenshot baselines | Auto-detect UI regressions |
-| competitor-intel | 500+ competitor profiles + pricing | Market intelligence |
-| lead-scoring-models | Scoring model definitions + training data | Smarter lead qualification |
-| content-engine | Blog templates + FAQ DB + copy variants | Scale content generation |
-| mcp-tools-extended | 8 new MCP tool definitions | Expanded ChatGPT tools |
-| knowledge-base | Product specs + RAG documents | Semantic search over XPS IP |
-| factory-dashboards | Monitoring + analytics configs | Real-time factory health |
+| Repository | Purpose | Status |
+|------------|---------|--------|
+| [xtreme-ai-systems](https://github.com/XTREME-AI-SYSTEMS/xtreme-ai-systems) | AI contractor ops · 70+ API routes · 15 pages | 🟢 LIVE |
+| [bidfast](https://github.com/XTREME-AI-SYSTEMS/bidfast) | AI-powered bid management platform | 🟢 LIVE |
+| [bidfast-platform](https://github.com/XTREME-AI-SYSTEMS/bidfast-platform) | BidFast infrastructure layer | 🟢 LIVE |
+| factory-control-plane | Autonomous build control plane | 🔒 Internal |
+| factory-runtime | Runtime execution engine | 🔒 Internal |
+| parity-engine | Visual QA validation · 90/100 gate | 🔒 Internal |
+| browserworker | Headless browser · Screenshot QA | 🔒 Internal |
+| template-registry | Golden template library | 🔒 Internal |
+| platform-config | Platform configuration registry | 🔒 Internal |
+| golden-path | Canonical deployment pattern | 🔒 Internal |
 
-## Autonomous Stack
-- ChatGPT Codex — Full write to all 20 repos
-- Base44 MCP — 38 tools + 8 planned extensions
-- Vercel — Auto-deploy on every push to main  
-- GitHub Actions — CI + receipt on every merge
-- 16 org secrets auto-inherited by every repo
+## The Agent Network
 
-## Reference Files (factory-control-plane)
-- DEPLOY_HOOKS.md — All Vercel deploy hook URLs
-- SECRETS_MANIFEST.md — All secret names across orgs
-- INFRASTRUCTURE_STATE.md — Full stack state
+| Agent | Role | SLA |
+|-------|------|-----|
+| **APEX** | Governor · Orchestrates all builds and decisions | 60s |
+| **ARIA** | Communications · WhatsApp, email, HubSpot | 5min |
+| **DISCOVERY** | Market research · Lead sourcing | Continuous |
+| **INTELLIGENCE** | Analysis · Benchmarking · Reports | Daily |
+| **VALIDATOR** | QA · Screenshot validation · Scoring loops | Every deploy |
+| **GHOST** | SEO · 70-city organic network | Daily |
+
+## Revenue Architecture
+
+```
+$1M NET — YEAR 1
+├── Strategic Minds Consulting    20 clients × $60K = $1.2M ARR
+├── Epoxy Nation Pro Network      7 cities × $60K net = $420K
+├── PCU Alumni Upgrades           50 × $2K = $100K
+└── XPS SEO Organic               $180K
+                                  ──────────────────
+                                  $1.9M gross → $1M+ net @ 70%+ margin
+```
+
+## Live Systems
+
+- **xpsintelligence.com** — AI contractor ops platform
+- **nationalepoxypros.com** — 70-city lead capture network
+- **xtremepolishingsystems.com** — Shopify + WordPress product store
+- **phoenix-epoxy-pros-site.vercel.app** — City 1 of 70
+
+---
+
+**Built by APEX. Operated by Jeremy Bensen — Strategic Minds Advisory AI.**
+*One operator. Infinite agents. $1M net. Built while sleeping.*
